@@ -1,12 +1,19 @@
+
 import styles from"./styles.module.css";
 export default function About(){
+   
     return(
        <>
-        <h1 className={styles.title}>
+       <div className={styles.about}>
+       <h1 className={styles.title}>
         БИДНИЙ ТУХАЙ
         </h1>
+   
+      
+        
+       </div>
         <section className={styles.container} >
-          
+      
             <div className={styles.about1}>
                 <p>“Жидакс” хувьцаат компани нь 1992 онд анх “Уужим хангай” ХК нэртэйгээр хөдөө аж ахуйн төслүүдэд хөрөнгө оруулалт хийж, хөдөө аж ахуйн цогц үйлдвэрлэл, үйлчилгээ бүхий үндэсний тэргүүлэгч компани болохыг эрхэм зорилгоо болгон байгуулагдсан бөгөөд 2013 онд “Стандарт Агрикалчер групп” ХК, компаний үйл ажиллагааны чиглэлээ гадаад худалдаа, бизнес төлөвлөгөө, газар тариалан, фермерийн аж ахуй эрхлэх болгон өөрчилж үйл ажиллагаагаа явуулсаар ирсэн байдаг.
                 </p>
@@ -37,6 +44,7 @@ export default function About(){
                 <iframe src="https://mse.mn/mn/company/385" frameborder="0" width="100%" height="600" style={{borderRadius:"40px", marginBottom:"20px"}}>iframe</iframe>
             </div>
         </section>
+
        </>
     )
 }

@@ -1,11 +1,10 @@
 
 import React from 'react'
 import styles from"./styles.module.css";
+import Stars from '../stars/star';
 export default function Header() {
   return <section className={styles.container}>
-      <video id={styles.video} autoPlay loop muted >
-      <source src="../image/background.mp4" type="video/mp4" />
-     </video>
+      <Stars/>
     
     <div className={styles.content}>
       <img className={styles.logo} src="../image/gdacs_logo.png" alt="" />
