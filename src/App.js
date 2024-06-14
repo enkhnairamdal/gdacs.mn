@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Actity from "./components/Activity";
 import Header from "./components/Header";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <body  style={{width:"100%", height:"100%" , backgroundColor:"#ECEDF0"}}>
       <Header/>
       <About/>
+      <Actity/>
       
     </body>
   );

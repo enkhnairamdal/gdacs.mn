@@ -1,0 +1,63 @@
+/* section 1 -----------------------> */
+.abcontainer{
+    width: 95%;
+    margin: auto;
+}
+.sec1{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.text{
+    width: 50%;
+    
+}
+.text p{
+    color: black;
+    line-height: 150%;
+    text-align: start;
+    /* font-size:3vw; */
+}
+.text h1 {
+    margin-top: -10px;
+    font-size:3.5vw;
+    font-weight: 770;
+    text-align: start;
+    line-height: 100%;
+}
+
+.text .span {
+   
+    color:#645F5D;
+}
+.span1{
+    color:#645F5D;
+    width: 100%;
+    margin-top: auto;
+}
+
+.sec1 img{
+    width: 50%;
+    border-radius: 10px;
+    height: 50vh;
+}
+/* sectin2-------------------------------->  */
+.sec2{
+    width: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.cards{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: auto;
+}
+.card{
+    width: 400px;
+    height: 200px;
+    background-color: black;
+}
+  
