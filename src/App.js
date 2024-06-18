@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Actity from "./components/Activity";
 import Header from "./components/Header";
+import Tuz from "./components/TUZ";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <About/>
       <Actity/>
+      <Tuz/>
       
     </body>
   );

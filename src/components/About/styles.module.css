@@ -15,6 +15,7 @@ h1{
     text-align: center;
     margin-top:40px;
     color: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    text-shadow: 1px 1px 3px #645F5D ;
     
 }
 
