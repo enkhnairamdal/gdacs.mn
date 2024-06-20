@@ -1,15 +1,40 @@
 
+
+
+/* -------- */
+
+.slidercon{
+    width: 100%;
+    height: 50vh;
+    
+    margin-top: 100px;
+    
+    /* border-radius: 40px; */
+    
+}
 .slider{
     width: 90%;
-    height: 50vh;
+    background-color: antiquewhite;
     margin: auto;
-    background-color: white;
 }
 .slider img {
     width: 100px;
     height: 100px;
     border-radius: 100%;
+    margin: auto;
+}
+.slider div h3{
+    text-align: center;
+    
+
 }
 .slider div p {
     color:black;
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
 }
+.bold {
+    font-weight: bold;
+}
+/* ---- */
