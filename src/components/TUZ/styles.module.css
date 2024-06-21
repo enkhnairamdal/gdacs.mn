@@ -1,11 +1,11 @@
 
-
+*{box-sizing: border-box;}
 
 /* -------- */
 
 .slidercon{
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     
     margin-top: 100px;
     
@@ -13,13 +13,15 @@
     
 }
 .slider{
-    width: 90%;
-    background-color: antiquewhite;
+    width: 80%;
+    background-color: white;
     margin: auto;
+    border-radius: 20px;
+    height: 90%;
 }
 .slider img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 100%;
     margin: auto;
 }
@@ -30,9 +32,19 @@
 }
 .slider div p {
     color:black;
-    font-size: large;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 150%;
     text-align: center;
-    margin-top: 20px;
+}
+    
+
+.slider div .pa{
+    color: rgb(28 32 36 / 64%);
+    font-size: small;
+}
+.top{
+    margin-top: 50px;
 }
 .bold {
     font-weight: bold;
