@@ -6,14 +6,10 @@
 .slidercon{
     width: 100%;
     height: 60vh;
-    
-    margin-top: 100px;
-    
     /* border-radius: 40px; */
-    
 }
 .slider{
-    width: 80%;
+    width: 95%;
     background-color: white;
     margin: auto;
     border-radius: 20px;

@@ -1,0 +1,10 @@
+.focontainer{
+    width: 95%;
+    height: 100%;
+    border-radius: 40px;
+    margin: 100px auto;
+    background-color: white;
+}
+.focontainer p{
+    color:#645F5D;
+}
