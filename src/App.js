@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <body  style={{width:"100%", height:"100%" , backgroundColor:"#ECEDF0" ,boxSizing:"border-box"}}>
+    <body  style={{width:"100%", height:"100%" , backgroundColor:"#ECEDF0" , paddingBottom:"100px"}}>
       <Header/>
       <About/>
       <Actity/>

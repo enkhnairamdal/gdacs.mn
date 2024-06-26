@@ -7,7 +7,7 @@ export default function Header() {
       <Stars/>
     
     <div className={styles.content}>
-      <img className={styles.logo} src="../image/gdacs_logo.png" alt="" />
+      <img className={styles.logo} src="../image/gdacs-logo.png" alt="" />
       
       
        <button id="myBtn" onclick="myFunction()"><span>&#xF479</span></button>
