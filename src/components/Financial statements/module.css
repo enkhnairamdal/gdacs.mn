@@ -1,0 +1,171 @@
+/* .ficontainer{
+    
+    width: 95%;
+    margin:200px auto auto auto;
+  
+}
+.ficontainer h1 {
+    font-size:6vh ;
+}
+.cardp{
+    width: 27vw;
+    height: 28vh;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+.ficontainer h2 {
+    font-size:5vh;
+    text-align: center;
+}
+.cardp img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 3rem;
+    width: 3rem;
+} */
+
+
+
+
+
+
+.main-container h1{
+    font-size: 60px;
+margin: 150px 0 0;
+
+padding: 0;
+text-align: center;
+width: 100%;
+
+}
+
+
+.main-container{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 40px auto;
+max-width: 1200px;
+width: 100%;
+background: url('https://www.toptal.com/designers/subtlepatterns/patterns/playstation-pattern.png');
+    background-size: 8%;
+}
+
+
+.main-container .card{
+    background: white;
+   
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+color: slate;
+cursor: pointer;
+flex-basis: calc(33% - 45px);
+margin: 20px;
+overflow: hidden;
+padding: 40px;
+position: relative;
+transition: .5s ease all;
+}
+
+
+.main-container &:before{
+    background: white;
+    border-radius: 40px;
+    height: 5px;
+    content: '';
+    left: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: .5s ease all;
+}
+   
+    
+.main-container h2, p{
+    position: relative;
+    z-index: 2;
+}
+  
+
+.main-container h2{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    margin: 0 0 20px 0;
+    padding: 0 0 10px 0;
+}
+   
+    
+.main-container p{
+    margin: 10px 0 0
+}
+    
+    
+.main-container .card #purple::before{
+    background-image: linear-gradient(153deg, #EF33F2 0%, #3544DC 95%);
+}
+
+
+.main-container .card #yellow::before{
+    background-image: linear-gradient(153deg, #F8C332 0%, #FB8332 95%);
+}
+
+
+.card #green::before{
+    background-image: linear-gradient(153deg, #8ADC32 0%, #25C7A2 95%);
+}
+
+    
+.main-container .card:hover{
+    border: 0;
+box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+color: white;
+transform: scale(1.05);
+z-index: 2;
+}
+
+
+.main-container &:before{
+    border-radius: 20px;
+    left: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+    
+    
+.main-container h2, p {
+    text-shadow: 2px 1px 3px rgba(0,0,0,0.2)
+}
+    
+    
+.main-container .card.border:hover
+.main-container &:before
+  {
+    border-radius: 16px;
+    left: 8px;
+    height: calc(100% - 16px);
+    right: 8px;
+    top: 8px;
+  }
+    
+@media(max-width:1200px){
+    .main-container h1{
+        font-size: 30px
+    }
+   
+    
+.main-container{
+    flex-direction: column;
+    max-width: 600px;
+}
+   
+    
+.main-container .card{
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+    
+}
