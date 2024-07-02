@@ -4,16 +4,18 @@ import Header from "./components/Header";
 import Tuz from "./components/TUZ";
 import Financial  from "./components/Financial statements";
 import Footer from "./components/Footer";
+import Stailan from "./components/FINANCIAL/1";
 
 function App() {
   return (
     <body  style={{width:"100%", height:"100%" , backgroundColor:"#ECEDF0" , paddingBottom:"100px"}}>
       <Header/>
       <About/>
-      <Actity/>
+      {/* <Actity/> */}
       <Tuz/>
       <Financial />
       <Footer/>
+      <Stailan/>
     </body>
   );
 }
