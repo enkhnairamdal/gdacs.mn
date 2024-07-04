@@ -60,7 +60,7 @@ export default function Financial (){
         <img className="imageHover" src="./image/next-white.png" alt="" />  
    
     </div>
-    <div className="card " >
+    <div className="card" >
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>

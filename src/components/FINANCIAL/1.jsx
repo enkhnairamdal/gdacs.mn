@@ -3,10 +3,10 @@ export default function Stailan() {
     <div>
         
          <h1>Санхүүгийн тайлан.</h1>
-      <div className="main-container" >
+      <div className="main-container"  >
         <a style={{textDecoration:"none"}} className="card " href="https://drive.google.com/file/d/1oB_jl1nXaKKXZaXWXOnnei_hShX57X8o/preview"
             target="_blank">
-          <p >
+          <p  >
             2021 оны Жилийн эцсийн санхүүгийн тайлан
           </p>
           <div id='stars'></div>
