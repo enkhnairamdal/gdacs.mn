@@ -1,20 +1,21 @@
 import Stars from "../stars/star";
 import "./module.css";
+import { Link } from "react-router-dom";
 export default function Financial (){
-   
+ 
     return(
  <div>
           
 <div className="main-container">
 <h1>ҮЙЛ АЖИЛЛАГАА,<br /> САНХҮҮГИЙН ТАЙЛАН</h1>
-    <div className="card " > 
+    <Link className="card " to="/санхүүгийн-тайлан" style={{ textDecoration:"inherit" , color:"inherit" , }} > 
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
         <h2>Санхүүгийн тайлан</h2>
         <img className="imageBox" src="./image/next.png" alt="" />  
         <img className="imageHover"  src="./image/next-white.png" alt="" />  
-    </div>
+    </Link>
     <div className="card " >
         <div id='stars'></div>
         <div id='stars2'></div>
