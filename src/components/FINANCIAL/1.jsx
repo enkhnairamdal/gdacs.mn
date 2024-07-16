@@ -1,8 +1,9 @@
+import Footer from "../Footer";
 import "./finan.css";
 export default function Stailan() {
   return (
-    <div >
-          <ul className="circles">
+    <div  style={{ marginTop:"-50px", width: "100%", height: "100%", backgroundColor: "#ECEDF0", paddingBottom: "100px" }}>
+          <ul className="circles" >
                     <li></li>
                     <li></li>
                     <li></li>
@@ -14,7 +15,7 @@ export default function Stailan() {
                     <li></li>
                     <li></li>
             </ul>
-         <h1>Санхүүгийн тайлан.</h1>
+         <h1 style={{paddingTop:"70px"}}>Санхүүгийн тайлан.</h1>
       <div className="main-container"  >
         <a style={{textDecoration:"none" , color:"black"}} className="card " href="https://drive.google.com/file/d/1oB_jl1nXaKKXZaXWXOnnei_hShX57X8o/preview"
             target="_blank">
@@ -155,7 +156,6 @@ export default function Stailan() {
         <a style={{textDecoration:"none" , color:"black"}} className="card " href="https://drive.google.com/file/d/133wFZ819nEz7zoEZqRoiKJxQeNMHQWCs/view"
             target="_blank">
           <h2
-            
           >
             2023 оны Санхүүгийн 4-р улирлын тайлан
           </h2>
@@ -166,6 +166,7 @@ export default function Stailan() {
         <img className="imageHover"  src="./image/next-white.png" alt="" />  
         </a>
       </div>
+      <Footer/>
     </div>
   );
 }
