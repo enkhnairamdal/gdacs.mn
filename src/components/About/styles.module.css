@@ -1,164 +1,140 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:700");
-.container{
-    width: 95%;
-    height: 100%;
-    margin: auto;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+.container {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
-h1{
-    font-size:5vw;
-    font-weight: 900;
-    text-align: center;
-    margin-top:40px;
-    color: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    text-shadow: 1px 1px 3px #645F5D ;
-    
-}
-
-
-p{
-    color:white;
-    font-weight: 500;
-    font-size: 1.8vw;
-    margin-top: -9px;
-}
-.about1{
-    width: 95%;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom:-45px ;
-
+h1 {
+  font-size: 5vw;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 40px;
+  color: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  text-shadow: 1px 1px 3px #645f5d;
 }
 
-.about2{
-    height: 51vh;
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    gap:30px;
-    margin: auto;
+p {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8vw;
+  margin-top: -9px;
 }
-.container img{
-    width: 50%;
-    height: 100%;
-    border-radius: 20px;
-
-}
-.about2 p{
-    width: 50%;
-
-}
-.about3{
-    height: 51vh;
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    gap:30px;
-    margin: auto;
-    
-
-
+.about1 {
+  width: 95%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: -45px;
 }
 
-.about3 p{
-    width: 50%;
+.about2 {
+  height: 51vh;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: auto;
+}
+.container img {
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+}
+.about2 p {
+  width: 50%;
+}
+.about3 {
+  height: 51vh;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: auto;
+}
 
+.about3 p {
+  width: 50%;
 }
-.about4{
-    height: 51vh;
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    gap:30px;
-    margin: auto;
+.about4 {
+  height: 51vh;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: auto;
 }
 
-.about4 p{
-    width: 50%;
-
+.about4 p {
+  width: 50%;
 }
-.about5{
-    width: 95%;
-    margin: auto;
+.about5 {
+  width: 95%;
+  margin: auto;
 }
-.about6{
-    width: 96%;
-    margin: auto;
+.about6 {
+  width: 96%;
+  margin: auto;
 }
 @media (max-width: 1250px) {
-  p{
+  p {
     font-size: 2vw;
-  } 
+  }
 }
 @media (max-width: 1000px) {
-    p{
-      font-size: 2.5vw;
-    } 
+  p {
+    font-size: 2.5vw;
+  }
 }
 @media (max-width: 750px) {
-    p{
-        font-size: 1.7vw;
-        width: 90%;
-        margin: auto;
-    }
-    .about2 {
-        display:flex ;
-        flex-direction: column;
-        margin-top: 20px;
-        
-      }
-      .about2 p {
-        width: 90%;
-        margin: auto;
-        
-        
-      }
-      .about3 {
-        display:flex ;
-        flex-direction: column-reverse;
-      }
-      .about3 p {
-        width: 90%;
-        margin: auto;
-        
-      }
-      .about4 {
-        display:flex ;
-        flex-direction: column;
-        
-      }
-      .about4 p {
-        width: 90%;
-        margin: auto;
-        
-      }
-  img{
+  p {
+    font-size: 1.7vw;
     width: 90%;
     margin: auto;
   }
- 
- 
+  .about2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .about2 p {
+    width: 90%;
+    margin: auto;
+  }
+  .about3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about3 p {
+    width: 90%;
+    margin: auto;
+  }
+  .about4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .about4 p {
+    width: 90%;
+    margin: auto;
+  }
+  img {
+    width: 90%;
+    margin: auto;
+  }
 }
 @media (max-width: 650px) {
-    p{
-        
-            font-size: 2vw;
-       
-    }
+  p {
+    font-size: 2vw;
+  }
 }
 @media (max-width: 500px) {
-    p{
-        font-size: 2.8vw;
-    }
-    .container img {
-      min-width: 90%;
-    }
+  p {
+    font-size: 2.8vw;
+  }
+  .container img {
+    min-width: 90%;
+  }
 }
-
-
-
-

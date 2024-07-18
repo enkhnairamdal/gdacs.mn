@@ -1,71 +1,68 @@
-.topcontainer{
-    width: 45%;
-    height: 100%;
-    border-radius: 1.5rem;
-    background-color: white;
-    padding: 4rem 4rem 3.75rem 4rem;
+.topcontainer {
+  width: 45%;
+  height: 100%;
+  border-radius: 1.5rem;
+  background-color: white;
+  padding: 4rem 4rem 3.75rem 4rem;
 }
-.topcontainer p{
-    color:#000;
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 100%;
+.topcontainer p {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 100%;
 }
-.footer{
-    display: flex;
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    justify-content: space-between ;
+.footer {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  justify-content: space-between;
 }
-.footer h3{
-    color:#afa8a6;
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 120%;
+.footer h3 {
+  color: #afa8a6;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 120%;
 }
-.footer img{
-    width: 70px;
-    height: 70px;
+.footer img {
+  width: 70px;
+  height: 70px;
 }
-.left{
-    
-    display: flex;
-    flex-direction: column;
-    gap:15px;
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.mapc{
-    width: 55%;
-    height: 62,5vh;
-    
-   
+.mapc {
+  width: 55%;
+  height: 62, 5vh;
 }
-.map{
-    width: 100%;
-    height: 100%;
-    border:0;
-    border-radius: 1.5rem;
+.map {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 1.5rem;
 }
 /* <------------> */
-.bottomcontainer{
-    width: 95%;
-    border-radius: 1.5rem;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    display: flex;
-    justify-content: space-around;
-    margin: 20px auto auto auto;
-    padding-bottom: 100px;
+.bottomcontainer {
+  width: 95%;
+  border-radius: 1.5rem;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto auto auto;
+  padding-bottom: 100px;
 }
-.bottomcontainer p{
-    font-size: 1.2rem;
-    font-weight: 300;
-    line-height: 100%;
-    padding-top: 15px;
+.bottomcontainer p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 100%;
+  padding-top: 15px;
 }
-.bottomcontainer h3{
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: 500;
-    line-height: 120%;
-    padding-top: 20px;
+.bottomcontainer h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 120%;
+  padding-top: 20px;
 }
