@@ -9,8 +9,8 @@
   flex-direction: column;
   gap: 50px;
 }
-h1 {
-  font-size: 5vw;
+.title{
+  font-size: 5vh;
   font-weight: 900;
   text-align: center;
   margin-top: 40px;
