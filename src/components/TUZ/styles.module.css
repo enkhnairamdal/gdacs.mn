@@ -16,6 +16,14 @@
   border-radius: 20px;
   height: 90%;
 }
+.title{
+  font-size: 8vh;
+  font-weight: 900;
+  text-align: center;
+  margin: 100px;
+  color: black;
+  text-shadow: 1px 1px 3px #645f5d;
+}
 .slider img {
   width: 70px;
   height: 70px;
@@ -43,4 +51,5 @@
 .bold {
   font-weight: bold;
 }
+
 /* ---- */

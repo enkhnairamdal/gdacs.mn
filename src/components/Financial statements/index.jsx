@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Financial() {
   return (
     <div>
-      <div className="main-container">
-        <h1>
+      <div className="main-container" >
+        <h1 className="title" id="үйл-ажиллагаа-санхүүгийн-тайлан">
           ҮЙЛ АЖИЛЛАГАА,
           <br /> САНХҮҮГИЙН ТАЙЛАН
         </h1>
@@ -14,9 +14,7 @@ export default function Financial() {
           to="/санхүүгийн-тайлан"
           style={{ textDecoration: "inherit", color: "inherit" }}
         >
-          <div id="stars"></div>
-          <div id="stars2"></div>
-          <div id="stars3"></div>
+          
           <h2>Санхүүгийн тайлан</h2>
           <img className="imageBox" src="./image/next.png" alt="" />
           <img className="imageHover" src="./image/next-white.png" alt="" />

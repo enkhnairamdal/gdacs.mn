@@ -2,12 +2,12 @@ import styles from "./styles.module.css";
 export default function About() {
   return (
     <>
-      <div className={styles.about}>
+      <div className={styles.about}  id="бидний-тухай">
         <h1 className={styles.title}>БИДНИЙ ТУХАЙ</h1>
       </div>
       <section className={styles.container}>
         <div className={styles.about1}>
-          <p>
+          <p className={styles.p}>
             “Жидакс” хувьцаат компани нь 1992 онд анх “Уужим хангай” ХК
             нэртэйгээр хөдөө аж ахуйн төслүүдэд хөрөнгө оруулалт хийж, хөдөө аж
             ахуйн цогц үйлдвэрлэл, үйлчилгээ бүхий үндэсний тэргүүлэгч компани
@@ -19,7 +19,7 @@ export default function About() {
         </div>
         <div className={styles.about2}>
           <img src="../image/heroBG.webp" alt="" />
-          <p>
+          <p className={styles.p}> 
             2021 онд “Стандарт Агрикалчер групп” ХК-ийн 99,06 хувийн хувьцааг
             БНСУ-ын хөрөнгө оруулалттай “ Эм Ди Кэй Ай ” ХХК худалдан авснаар
             нэрээ “Жидакс” ХК болгон, программ хангамж, мэдээлэл технологиийн
@@ -30,7 +30,7 @@ export default function About() {
           </p>
         </div>
         <div className={styles.about3}>
-          <p>
+          <p className={styles.p}>
             2020 онд дэлхий нийтийг хамарсан цар тахал “Ковид-19”-ийг илрүүлгийг
             түргэн шуурхай болгож, Монгол улсын эдийн засгийн эргэлт, хүн амын
             доторх өвчлөлийг эрт илрүүлэх зорилгоор БНСУ-ын “Genesystem” ХХК-ийн
@@ -43,7 +43,7 @@ export default function About() {
         </div>
         <div className={styles.about4}>
           <img src="../image/Alpha.jpg" alt="" />
-          <p>
+          <p className={styles.p}>
             Төслийн хүрээнд “Жидакс” ХК-ийн 100%-ийн хөрөнгө оруулалтаар эм,
             эмнэлгийн тоног төхөөрөмж, урвалж импортлох тусгай зөвшөөрөлтэй
             “Альфа Доктор Мед” ХХК-ийн 51%-ийн хувьцааг эзэмшиж,“Альфа Доктор
@@ -54,7 +54,7 @@ export default function About() {
           </p>
         </div>
         <div className={styles.about5}>
-          <p>
+          <p className={styles.p}>
             Цаашид үйл ажиллагааны чиглэлдээ нийцүүлэн БНСУ-ын сүүлийн үеийн
             дэвшилтэд технологийг Монгол улсын бүтээн байгуулалт, цахим хөгжил,
             эрүүл мэндийн салбаруудад хөрөнгө оруулалтыг татан төвлөрүүлж, төсөл

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    <div   id="холбоо-барих">
       <div
         style={{
           display: "flex",
@@ -11,6 +11,7 @@ export default function Footer() {
           gap: "20px",
           margin: " 50px auto auto auto",
         }}
+      
       >
         <div className={styles.topcontainer}>
           <div className={styles.footer}>

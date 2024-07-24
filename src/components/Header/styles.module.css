@@ -18,11 +18,18 @@
 .logo {
   width: 60px;
   height: 65px;
-  margin-left: 50px;
+ 
   padding-top: 10px;
 }
-@media (max-width: 400px) {
-  .logo {
-    margin-left: 10px;
+.canva{
+  background: radial-gradient(ellipse at bottom, #151e29 0%, #181b25 100%);
+}
+@media (max-width: 600px) {
+ 
+  .reset{
+    position: absolute;
+    right: 100px;
+    
+    
   }
 }

@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Actity from "./components/Activity";
 import Financial from "./components/Financial statements";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -16,7 +17,7 @@ export default function Home() {
     >
       <Header />
       <About />
-      {/* <Actity/>  */}
+      <Actity/> 
       <Tuz />
       <Financial />
       <Footer />

@@ -41,8 +41,8 @@ export default function Tuz() {
   };
 
   return (
-    <div className={styles.slidercon}>
-      <h1>Төлөөлөн Уулзах Зөвлөл</h1>
+    <div className={styles.slidercon} id="төлөөлөн-уулзах-зөвлөл">
+      <h1 className={styles.title}>Төлөөлөн Уулзах Зөвлөл</h1>
       <Slider className={styles.slider} {...settings}>
         <div>
           <p className={styles.top}>
