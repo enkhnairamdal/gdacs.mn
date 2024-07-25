@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div   id="холбоо-барих">
+    <div id="холбоо-барих">
       <div
         style={{
           display: "flex",
@@ -11,7 +11,6 @@ export default function Footer() {
           gap: "20px",
           margin: " 50px auto auto auto",
         }}
-      
       >
         <div className={styles.topcontainer}>
           <div className={styles.footer}>
@@ -39,13 +38,12 @@ export default function Footer() {
           ></iframe>
         </div>
       </div>
-      <div className={styles.bottomcontainer}>
+      <div className={styles.bottomcontainer} style={{position:"relative"}}>
         <div>
           <h3>ҮНДСЭН ЦЭС</h3>
           <p>Нүүр</p>
           <p>Бидний тухай</p>
           <p>Үйл ажилгааны чиглэл</p>
-          <p>Төсөл</p>
         </div>
         <div>
           <h3>ТУСЛАХ ЦЭС</h3>
@@ -61,14 +59,14 @@ export default function Footer() {
             өсөв.
           </p>
           <p>
-            {" "}
+          
             "Жидакс" ХК, "Хот девелопмент" ХК, <br />
             "Бөөний худалдаа " ХК-ны хувьцааны ханш <br />
             өссөн үзүүлэлттэй байна.
           </p>
         </div>
-        {/* <p>COPYRIGHT© 2024 GDACS co., ltd. ALL RIGHTS REVERSED.</p>
-            <p>Mongolia</p> */}
+        <p style={{position:"absolute" , fontWeight:"bold" , fontSize:"1.2vh", bottom:2, }}>COPYRIGHT© 2024 GDACS co., ltd. ALL RIGHTS REVERSED. </p>
+        {/* <p style={{position:"absolute" ,fontWeight:"bold" , fontSize:"1.2vh", bottom:2 , }}>Mongolia</p> */}
       </div>
     </div>
   );

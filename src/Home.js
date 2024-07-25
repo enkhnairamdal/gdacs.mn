@@ -1,3 +1,4 @@
+
 import About from "./components/About";
 import Actity from "./components/Activity";
 import Financial from "./components/Financial statements";
@@ -6,6 +7,7 @@ import Header from "./components/Header";
 import Tuz from "./components/TUZ";
 
 export default function Home() {
+  
   return (
     <div
       style={{
@@ -13,8 +15,10 @@ export default function Home() {
         height: "100%",
         backgroundColor: "#ECEDF0",
         paddingBottom: "100px",
+      
       }}
     >
+     
       <Header />
       <About />
       <Actity/> 

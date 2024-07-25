@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import {  Routes , Route ,} from "react-router-dom";
 import Stailan from "./components/FINANCIAL/1";
 import Home from "./Home";
 import Ktailan from "./components/FINANCIAL/2";
@@ -7,10 +7,16 @@ import TUZ from "./components/FINANCIAL/4";
 import TuzE from "./components/FINANCIAL/5";
 import Kzs from "./components/FINANCIAL/6";
 import Kzg from "./components/FINANCIAL/7";
+import BottomNav from "./components/bottomNav";
 
 function App() {
   return (
-    <Routes>
+    
+   <Routes>
+
+    
+      
+   
       <Route path="/" element={<Home />} />
       <Route path="/санхүүгийн-тайлан" exact element={<Stailan />} />
       <Route
@@ -35,7 +41,9 @@ function App() {
         element={<Kzs />}
       />
       <Route path="/компанийн-засаглалын-гэрчилгээ" exact element={<Kzg />} />
-    </Routes>
+   
+  
+   </Routes>
   );
 }
 
